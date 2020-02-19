@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(description='Script for generating ssh config f
 
 parser.add_argument("-i", "--input", help="Output file name.", required=True)
 parser.add_argument("-o", "--output", help="Input file name.", required=True)
-parser.add_argument("-k", "--key", help="Identity file (default: ~/ssh/id_ed25519)", default="~./ssh/id_ed25519")
+parser.add_argument("-k", "--key", help="Identity file (default: ~/.ssh/id_ed25519)", default="~/.ssh/id_ed25519")
 
 args = parser.parse_args()
 
